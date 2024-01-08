@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Time</title>
+<title>一份专属萌萌的告白</title>
 
 <style type="text/css">
 @font-face {
@@ -22,33 +22,56 @@
 
 <div id="mainDiv">
 	<div id="content">
-		<div id="code">
-			<span class="comments">/*</span><br />
-			<span class="space"/><span class="comments">*2015—12-31</span><br />
-			<!--<span class="space"/><span class="comments">*2018-12-31.</span><br /> -->
-			<span class="space"/><span class="comments">*/</span><br />
-			Boy name = <span class="keyword">Mr</span> Ji<br />
-			Girl name = <span class="keyword">Mrs</span> Chen<br />
-			<span class="comments">// Fall in love river. </span><br />
-			The boy love the girl;<br />
-			<span class="comments">// They love each other.</span><br />
-			The girl loved the boy;<br />
-			<span class="comments">// AS time goes on.</span><br />
-			The boy can not be separated the girl;<br />
-			<span class="comments">// At the same time.</span><br />
-			The girl can not be separated the boy;<br />
-			<span class="comments">// Both wind and snow all over the sky.</span><br />
-			<span class="comments">// Whether on foot or 5 kilometers.</span><br />
-			<span class="keyword">The boy</span> very <span class="keyword">happy</span>;<br />
-			<span class="keyword">The girl</span> is also very <span class="keyword">happy</span>;<br />
-			<span class="placeholder"/><span class="comments">// Whether it is right now</span><br />
-			<span class="placeholder"/><span class="comments">// Still in the distant future.</span><br />
-			<span class="placeholder"/>The boy has but one dream;<br />
-			<span class="comments">// The boy wants the girl could well have been happy.</span><br />
-			<br>
-			<br>
-			I want to say:<br />
-			Baby, I love you forever;<br />
+		<div id="code" style="margin-top: 30px;">
+			<span class="comments">亲爱的萌萌，</span><br/>
+			<span class="comments">我一直在酝酿一种方式来一个深情告白，</span><br/>
+			<span class="comments">所以很想用特别的方式给你写一封情书，</span><br/>
+			<span class="comments">不知道这种方式你是否喜欢呢？</span><br/>
+			<br/>
+			<span class="space">真的很开心你神奇地出现在我的生命里。</span><br/>
+			<span class="space">以前没想过我理想的女朋友会是怎么样的，</span><br/>
+			<span class="space">直到我遇见了你。</span><br/>
+			<span class="space">你的美丽、热情、温柔、体贴、善良、洒脱，</span><br/>
+			<span class="space">你言行中的每一个让人暖心的小细节，</span><br/>
+			<span class="space">就是我最喜欢的样子，</span><br/>
+			<span class="space">没错，我喜欢你的所有。</span><br/>
+			<span class="space">想来也是神奇，文字的力量是如此强大，</span><br/>
+			<span class="space">仅仅通过聊天和有限的见面次数，</span><br/>
+			<span class="space">两个灵魂之间竟能擦碰出如此耀眼的火花。</span><br/>
+			<span class="space">每当我看到你给我送的小玩意，</span><br/>
+			<span class="space">我就仿佛看到了你在我眼前的样子；</span><br/>
+			<span class="space">每当我吃到了你投喂的水果、奶茶、甜品，</span><br/>
+			<span class="space">我确信这就是世界上最甜的东西；</span><br/>
+			<span class="space">每当我们彻夜长聊，</span><br/>
+			<span class="space">我总会看着屏幕痴痴傻笑……</span><br/>
+			<span class="space">2023年年底见面时，我更加确信我要一直珍惜你。</span><br/>
+			<span class="space">我常常问自己，我是不是一个合格的男朋友，</span><br/>
+			<span class="space">担心自己做的不够多，</span><br/>
+			<span class="space">担心忽视你的真实感受。</span><br/>
+			<span class="space">但我深知，你在我内心就是无可替代的，</span><br/>
+			<span class="space">我一定会慢慢努力，用行动去证明，</span><br/>
+			<span class="space">你在我心里就是独一无二的，你就是最好的。</span><br/>
+			<span class="space">可能时间会让新鲜感减退，</span><br/>
+			<span class="space">会暴露出我们的一些缺点，</span><br/>
+			<span class="space">可是我坚信，经过时光的打磨，</span><br/>
+			<span class="space">我们一定能让爱更加牢固，</span><br/>
+			<span class="space">我始终相信，缘分能证明我们的选择，</span><br/>
+			<br/>
+			<span class="keyword">看吧，属于我们的计时器正在一分一秒地走着，</span><br/>
+			<span class="keyword">我会珍惜每分每秒，</span><br/>
+			<span class="keyword">不必匆忙，我们一直都在慢慢前行，</span><br/>
+			<span class="keyword">我们都在慢慢成长，</span><br/>
+			<span class="keyword">慢慢找到爱的意义。</span><br/>
+			<span class="keyword">萌萌，遇到你，我没有任何遗憾。</span><br/>
+			<span class="keyword">爱你如初。</span><br/>
+			<span class="keyword" id="currentDate"><script>
+				date = new Date();
+				year = date.getFullYear();
+				month = date.getMonth() + 1;
+				day = date.getDate();
+				document.getElementById("currentDate").innerHTML = year + "/" + month + "/" + day;
+			</script></span><br/>
+
 		</div>
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
@@ -59,14 +82,14 @@
 				</div>
 				<div id="loveu">
 					永远爱你<br/>
-					<div class="signature"> 明明</div>
+					<div class="signature">明明</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="copyright">
-		<a href="#">....</a><br />
-		<a href="#">....</a><br />
+		<a href="#">所爱隔山海</a><br />
+		<a href="#">山海皆可平</a><br />
 		
 	</div>
 </div>
@@ -75,8 +98,8 @@
 var offsetX = $("#loveHeart").width() / 2;
 var offsetY = $("#loveHeart").height() / 2 - 55;
 var together = new Date();
-together.setFullYear(2023,12,30);
-together.setHours(0);
+together.setFullYear(2023,11,30);
+together.setHours(21);
 together.setMinutes(0);
 together.setSeconds(0);
 together.setMilliseconds(0);
